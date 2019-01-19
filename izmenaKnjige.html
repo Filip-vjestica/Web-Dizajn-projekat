@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Izmena Knjige</title>
+    <link rel="stylesheet" href="Style/detaljiKnjige.css">
+    <script type="text/javascript" src="Scripts/izmenaKnjige.js"></script>
+    
+
+</head>
+<body onload="generisanjeNavBar();nadji();idKnjige();generisanjeIzborAutora()">
+    <div id="navBar">
+
+    </div>
+    <div id="container">
+        <img id="img">
+        <div style="float:left">
+            <h1 id="naziv"></h1>
+            <p><b>Autor: </b> <span id="autor"></span></p>
+            <p><b>Godina izdavanja: </b> <span id="godina"></span></p>
+            <p><b>Cena(Dinara): </b> <span id="cena"></span></p>
+            <p><b>Broj dostupnih primeraka: </b> <span id="brojPrimeraka"></span></p>
+        </div>
+        <div id="korisnickiInput">
+            <h1>Ovde unesite svoj izmene!</h1>
+            <p><b>ID:</p>
+            <input type="text"  id="id" readonly value=>
+            <br>
+            <br>
+            <p>Unesite naziv knjige:</p>
+            <input type="text" id="naziv1" placeholder="">
+            <br>
+            <br>
+            <p>Unesite godinu izdavanja:</p>
+            <input type="text" id="godinaIzd" placeholder="">
+            <br>
+            <br>
+            <p>Unesite cenu:</p>
+            <input type="text"  id="cena1" placeholder="">
+            <br>
+            <br>
+            <p>Broj raspolozivih primeraka:</p>
+            <input type="text" id="brojPrimeraka1" placeholder="">
+            <br>
+            <br>
+            <p>Izaberite sliku omota:</p>
+            <input type="file"  id="slikaOmota" placeholder="Putanja do slike">
+            <br>
+            <br>
+            
+            <div id="autori">
+                <p>Izaberite autora:</p>
+                <select  id="izborAutora" style="width:150px">
+                </select>
+            </div>
+            <br>
+            <button id="izmeniDugme" onclick="izmeniKnjigu()" style="padding: 10px 24px">Izmeni</button>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dodavanje Administratora</title>
+    <link rel="stylesheet" href="Style/detaljiKnjige.css">
+    <script type="text/javascript" src="Scripts/knjigePoA.js"></script>
+    <script type="text/javascript" src="Scripts/dodavanjeAdministratora.js"></script>
+</head>
+<body onload="generisanjeNavBar()">
+    <div id="navBar">
+
+    </div>
+    <div id="container">
+        <center>
+            <h1>Unesite podatke o novom administratoru</h1>
+            <br>
+            <p>Ime:</p>
+            <input type="text" id="ime" placeholder="Unesite ime...">
+            <br>
+            <br>
+            <p>Prezime:</p>
+            <input type="text" id="prezime" placeholder="Unesite prezime...">
+            <br>
+            <br>
+            <p>Korisnicko ime:</p>
+            <input type="text" id="korisnickoIme" placeholder="Unesite korisnicko ime...">
+            <br>
+            <br>
+            <p>Unesite lozinku:</p>
+            <input type="text" id="lozinka" placeholder="Unesite lozinku...">
+            <br>
+            <br>
+            <button id="dodAdmin" onclick="dodavanjeAdministratora()" style="padding: 10px 24px">Dodaj Admin</button>
+        </center>
+    </div>
+    
+</body>
+</html>

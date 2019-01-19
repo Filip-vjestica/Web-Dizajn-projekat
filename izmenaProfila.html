@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profil</title>
+    <link rel="stylesheet" href="Style/detaljiKnjige.css">
+    <script type="text/javascript" src="Scripts/knjigePoA.js"></script>
+    <script type="text/javascript" src="Scripts/prikazProfila.js"></script>
+</head>
+<body onload="generisanjeNavBar();prikazi()">
+    <div id="navBar">
+
+    </div>
+    <div id="container">
+        <center>
+            <p><b>Ime: </b> <span id="ime"></span></p>
+            <br>
+            <p><b>Prezime: </b> <span id="prezime"></span></p>
+            <br>
+            <p><b>Korisnicko ime: </b> <span id="korisnickoIme"></span></p>
+            <br>
+            <p><b>Lozinka: </b> <span id="lozinka"></span></p>
+            <br>
+            <input type="text" id="imePromena" placeholder="novo ime...">
+            <br>
+            <br>
+            <input type="text" id="prezimePromena" placeholder="novo prezime...">
+            <br>
+            <br>
+            <input type="text" id="lozinkaPromena" placeholder="nova lozinka...">
+            <br>
+            <br>
+            <button id="proveriIzmenu" style="padding: 10px 24px" onclick="proveriIzmenu()">Potvrdi izmene</button>
+        </center>
+    </div>
+</body>
+</html>

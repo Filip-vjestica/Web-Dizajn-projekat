@@ -1,0 +1,47 @@
+body{
+    background-image: url(../Data/pozadina.jpg);
+}
+h1{
+    font-size: 300%;
+}
+#container{
+    margin-top: 15%;
+    border-style: dotted;
+}
+
+#username{
+    border:2px solid red;
+    border-radius: 4px;
+    width: 15%;
+    height: 25px;
+}
+#password{
+    border:2px solid red;
+    border-radius: 4px;
+    width: 15%;
+    height: 25px;
+}
+
+#ime{
+    border:2px solid red;
+    border-radius: 4px;
+    width: 15%;
+    height: 25px;
+}
+
+#prezime{
+    border:2px solid red;
+    border-radius: 4px;
+    width: 15%;
+    height: 25px;
+}
+.buttonRegistracija{
+    width: 5%;
+    height: 50px;
+    font-weight: lighter;
+    font-size: 110%;
+}
+
+.buttonRegistracija:hover{
+    background-color: red;
+}

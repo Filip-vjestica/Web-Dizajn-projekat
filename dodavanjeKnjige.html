@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dodavanje knjige</title>
+    <link rel="stylesheet" href="Style/detaljiKnjige.css">
+    <script type="text/javascript" src="Scripts/knjigePoA.js"></script>
+    <script type="text/javascript" src="Scripts/dodavanjeKnjige.js"></script>
+</head>
+<body onload="generisanjeNavBar();generisanjeIzborAutora()">
+    <div id="navBar">
+
+    </div>
+    <div id="container">
+        <center>
+            <h1>Unesite podatka o novoj knjigi</h1>
+            <br>
+            <p><b>ID:</p>
+            <input type="text" id="idKnjige" placeholder="Unesite id knjige...">
+            <br>
+            <br>
+            <p>Unesite naziv knjige:</p>
+            <input type="text" id="nazivKnjige" placeholder="Unesite naziv knjige...">
+            <br>
+            <br>
+            <p>Unesite godinu izdavanja:</p>
+            <input type="text" id="godinaIzdavanjaKnjige" placeholder="Unesite godinu izdavanja...">
+            <br>
+            <br>
+            <p>Unesite cenu:</p>
+            <input type="text"  id="cenaKnjige" placeholder="Unesite cenu knjige...">
+            <br>
+            <br>
+            <p>Broj raspolozivih primeraka:</p>
+            <input type="text" id="brojPrimerakaKnjige" placeholder="Unesite broj dostupih primeraka...">
+            <br>
+            <br>
+            <p>Izaberite sliku omota:</p>
+            <input type="file"  id="slikaOmotaKnjige" placeholder="Putanja do slike">
+            <br>
+            <br>
+            <div id="autori">
+                    <p>Izaberite autora:</p>
+                    <select  id="izborAutora" style="width:150px">
+                    </select>
+            </div>
+            <br>
+            <button id="dodajKnjigu" onclick="dodajKnjigu()" style="padding: 10px 24px">Dodaj Knjigu</button>
+        </center>
+    </div>
+    
+</body>
+</html>

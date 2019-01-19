@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registracija Novog kupca</title>
+    <link rel="stylesheet" href="Style/registracijaNovogKupca.css">
+    <script src="Scripts/registracija.js"></script>
+</head>
+<body>
+    <center>
+        <div id="container">
+            <h1 style="color:rgb(185, 65, 17);size: 150%">Dobrodosli na stranicu za registraciju novog kupca</h1>
+            <div class="username">
+                <input type="text" name="username" id="username" placeholder="Unesite zeljeno korisnicko ime">
+                <br>
+                <br>
+            </div>
+            <div class="password">
+                <input type="password" name="password" id="password" placeholder="Unesite svoju lozinku!">
+                <br>
+                <br>
+            </div>
+            <div class="ime">
+                <input type="text" name="ime" id="ime" placeholder="Unesite svoje ime!">
+                <br>
+                <br>
+            </div>
+            <div class="prezime">
+                <input type="text" name="prezime" id="prezime" placeholder="Unesite svoje prezime!">
+                <br>
+                <br>
+            </div>
+            <button class="buttonRegistracija" onclick="proveriDaLiPostojiKorisnik()">Registruj se</button>
+        </div>
+    </center>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body{
+    background-image: url(../Data/pozadina.jpg);
+}
+h1{
+    font-size: 300%;
+}
+#container{
+    margin-top: 15%;
+    border-style: dotted;
+}
+#username{
+    border:2px solid red;
+    border-radius: 4px;
+    width: 15%;
+    height: 25px;
+}
+#password{
+    border:2px solid red;
+    border-radius: 4px;
+    width: 15%;
+    height: 25px;
+}
+.buttonLogin{
+    width: 5%;
+    height: 50px;
+    font-weight: lighter;
+    font-size: 110%;
+}
+.buttonLogin:hover{
+    background-color: red;
+}
